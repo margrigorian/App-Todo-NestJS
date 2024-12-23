@@ -5,6 +5,8 @@ import { AppModule } from '../src/modules/app/app.module';
 import { UserResponse } from 'src/modules/auth/response';
 import { CreateUserDTO } from 'src/modules/user/dto';
 
+// ТЕСТ ОКАЗЫВАЕТ ВОЗДЕЙСТВИЕ И МЕНЯЕТ ЗАПИСИ В РЕАЛЬНОЙ БАЗЕ ДАННЫХ
+
 describe('ToDo-App (e2e)', () => {
   let app: INestApplication;
 
